@@ -21,10 +21,10 @@ public class Person {
     private Long id;
 
     @Column(nullable = false)
-    private String FistName ;
+    private String firstName ;
 
     @Column(nullable = false)
-    private String LastName;
+    private String lastName;
 
     @Column(nullable = false, unique = true)
     private String cpf;
@@ -33,7 +33,7 @@ public class Person {
     private LocalDate birthDate ;
 
 
-    @OneToMany
+    @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
     private List<Phone> phones ;
 
 
