@@ -6,6 +6,7 @@ import digitalinnovation.personapi.entity.Person;
 import digitalinnovation.personapi.exception.PersonNotFoundException;
 import digitalinnovation.personapi.mapper.PersonMapper;
 import digitalinnovation.personapi.repository.PersonRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,17 +14,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonService {
 
     private final PersonMapper personMapper = PersonMapper.INSTANCE;
 
     private PersonRepository personRepository;
 
-    @Autowired
-    public PersonService(PersonRepository personRepository) {
-        this.personRepository = personRepository;
-
-    }
 
     public MessageResponserDTO createPerson(PersonDTO personDTO) {
         Person personToSave = personMapper.toModel(personDTO);
