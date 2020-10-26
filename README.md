@@ -65,6 +65,6 @@ Alternatively you can access the following adress with postman or similar softwa
 
 ## Observations
 
-¹ Using Lombok and Mapstruct together will produce the error "<i>Could not retrieve @Mapper annotation during compilation</i>" to prevent that you'll need to set the path of mapstruct to contain lombok. See [MapStruct](https://mapstruct.org/faq/#Can-I-use-MapStruct-together-with-Project-Lombok) for more information.
+¹ Using Lombok and Mapstruct together will produce the error "<i>Could not retrieve @Mapper annotation during compilation</i>" to prevent that you'll need to configure the path of mapstruct to contain lombok. See [MapStruct](https://mapstruct.org/faq/#Can-I-use-MapStruct-together-with-Project-Lombok) for more information.
 
 
