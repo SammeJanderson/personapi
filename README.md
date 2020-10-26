@@ -33,7 +33,7 @@ After that you can open the following address to visualise the execution of the 
 http://localhost:8080/api/v1/people
 ```
 
-Alternatively you also can access the following adress with postman or similar software.
+Alternatively you can access the following adress with postman or similar software.
 
 ````
  https://samme-personapi-live.herokuapp.com/
