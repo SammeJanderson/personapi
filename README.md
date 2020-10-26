@@ -21,6 +21,12 @@ The idea was to develope a API that could be realistic(although not really) used
 
 ## Running the program
 
+### Requirements
+
++ Java 11
++ Maven 3.6.3 or superior
+
+
 Open the project on the terminal.
 
 ```shell script
