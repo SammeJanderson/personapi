@@ -51,8 +51,8 @@ Alternatively you can access the following adress with postman or similar softwa
           {
           "type":"(MOBILE/HOME/COMERCIAL)",
           "number":"(99)999999999"
+          }        
           ]
-}
 ````
 
 
