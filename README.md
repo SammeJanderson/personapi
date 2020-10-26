@@ -3,7 +3,7 @@
 ## Abstract
 
 This project was developed with the intent of learning the basics of the development of a API REST.
-The idea was to develope a API that could be realistic(although not really) used by a organization to store and manage data about people. 
+The idea was to develope a API that could be realistic(although not really) used by a organization to store and manage basic data about people. 
 
 
 
