@@ -45,7 +45,7 @@ Alternatively you can access the following adress with postman or similar softwa
 ````json
 "firstName": "",
 "lastName": "",
-"cpf" "999.999.99",
+"cpf" "999.999.999-99",
 "birthDate" : "dd-MM-yyyy",
 "phone": [
           {
