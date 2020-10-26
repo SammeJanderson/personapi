@@ -6,7 +6,6 @@ This project was developed with the intent of learning the basics of the develop
 The idea was to develope a API that could be realistic(although not really) used by a organization to store and manage data about people. 
 
 
-## Data Model
 
 ## Technnologies
 + Java 11
@@ -39,6 +38,10 @@ Alternatively you also can access the following adress with postman or similar s
 ````
  https://samme-personapi-live.herokuapp.com/
 ````
+
+
+## Data Model
+
 
 
 
