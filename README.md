@@ -40,7 +40,7 @@ Alternatively you can access the following adress with postman or similar softwa
 ````
 
 
-## Json Format
+## JSON Format
 
 ````json
 "firstName": "",
